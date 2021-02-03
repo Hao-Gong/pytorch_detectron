@@ -52,7 +52,7 @@ python setup.py install
 
 # because of lake of training resource, some test only done on VOC2007 trainval/Test
 model    | #GPUs | batch size | lr        | lr_decay | max_epoch     |  time/epoch | mem/GPU | mAP 
----------|--------|-----|--------|-----|-----|-------|--------|-----|-----
+---------|--------|-----|--------|-----|-----|-------|--------|-----
 [Res-101-Faster-Rcnn-800] | 1 | 4 | 1e-3 | -   | -   |  - hr | - MB  | 71.1% 
 [Res-101-FPN-800] | 1 | 8 | 1e-3 | -   | -   |  - hr | - MB  | 74.3% 
 [Res-50-FPN-800] | 1 | 8 | 1e-3 | -   | -   |  - hr | - MB  | 71.4% 
@@ -65,7 +65,7 @@ model    | #GPUs | batch size | lr        | lr_decay | max_epoch     |  ti
 
 ## VOC2007+2012train/VOC2007Test
 model    | #GPUs | batch size | lr        | lr_decay | max_epoch     |  time/epoch | mem/GPU | mAP 
----------|--------|-----|--------|-----|-----|-------|--------|-----|-----
+---------|--------|-----|--------|-----|-----|-------|--------|-----
 [Res-101-FPN-800] | 1 | 1 | 1e-3 | -   | -   |  - hr | - MB  | 82.9% 
 [Res-101-Faster-Rcnn-800] | 1 | 1 | 1e-3 | -   | -   |  - hr | - MB  | 78.8%
 
