@@ -61,11 +61,11 @@ setup(
     author="diamous",
     author_email="diamous@163.com",
     # description="multi detection model",
-    # data_files=[('pretrain_models', ['uaesai_detectron/pretrain_models/resnet101.pth',\
-    #     'uaesai_detectron/pretrain_models/resnet18.pth','uaesai_detectron/pretrain_models/resnet34.pth',\
-    #         'uaesai_detectron/pretrain_models/resnet50.pth','uaesai_detectron/pretrain_models/resnet152.pth',\
-    #             'uaesai_detectron/pretrain_models/yoloV3_pretrain.pth','uaesai_detectron/pretrain_models/yolo4_pretrain.pth',\
-    #                 'uaesai_detectron/pretrain_models/yolov4_tiny_pretrain.pth','uaesai_detectron/pretrain_models/efficientdet-d0.pth','uaesai_detectron/pretrain_models/efficientdet-d1.pth'])],
+    # data_files=[('pretrain_models', ['pytorch_detectron/pretrain_models/resnet101.pth',\
+    #     'pytorch_detectron/pretrain_models/resnet18.pth','pytorch_detectron/pretrain_models/resnet34.pth',\
+    #         'pytorch_detectron/pretrain_models/resnet50.pth','pytorch_detectron/pretrain_models/resnet152.pth',\
+    #             'pytorch_detectron/pretrain_models/yoloV3_pretrain.pth','pytorch_detectron/pretrain_models/yolo4_pretrain.pth',\
+    #                 'pytorch_detectron/pretrain_models/yolov4_tiny_pretrain.pth','pytorch_detectron/pretrain_models/efficientdet-d0.pth','pytorch_detectron/pretrain_models/efficientdet-d1.pth'])],
     ext_modules=get_extensions(),
     packages=find_packages(),
     cmdclass={"build_ext": torch.utils.cpp_extension.BuildExtension},

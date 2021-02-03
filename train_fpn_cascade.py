@@ -2,7 +2,6 @@
 # coding: utf-8
 # #### Cascade R-CNN: Delving into High Quality Object Detection 论文连接： https://arxiv.org/abs/1712.00726
 
-#导入uaes_detectron包
 from pytorch_detectron.detector import detector
 
 #定义好数据集的类别名字，需要与标注中的保持一致

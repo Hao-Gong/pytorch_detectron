@@ -2,8 +2,7 @@
 # coding: utf-8
 # #### YOLOv4: Optimal Speed and Accuracy of Object Detection 论文连接：YOLOv4: Optimal Speed and Accuracy of Object Detection
 
-#导入uaes_detectron包
-from uaesai_detectron.detector import detector
+from pytorch_detectron.detector import detector
 
 
 #定义好数据集的类别名字，需要与标注中的保持一致

@@ -3,7 +3,6 @@
 # #### YOLOv4: Optimal Speed and Accuracy of Object Detection 论文连接：YOLOv4: Optimal Speed and Accuracy of Object Detection
 
 #本次教程通过调用pytorch_detectron.detector的对象来创建yolov4_tiny检测网络训练、测试检测图片
-#导入uaes_detectron包
 from pytorch_detectron.detector import detector
 
 

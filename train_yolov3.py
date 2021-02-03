@@ -2,8 +2,8 @@
 # coding: utf-8
 # #### YOLOv3: An Incremental Improvement 论文连接： https://pjreddie.com/media/files/papers/YOLOv3.pdf
 
-#导入uaes_detectron包
-from uaesai_detectron.detector import detector
+
+from pytorch_detectron.detector import detector
 
 
 #定义好数据集的类别名字，需要与标注中的保持一致
