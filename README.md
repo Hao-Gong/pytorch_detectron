@@ -62,3 +62,5 @@ For yoloV3,yoloV4,yoloV4-tiny:
 ```
 "train_dataset_transforms":["BrightJitter","HueSaturationJitter","RandomCroper","RandomSelfMosaic","Normalizer","HorizontalFliper", "VerticalFliper", "Resizer","TransformAnnotXYWH"]  
 ```
+
+## 因为整个工程都把朝参放到了config中，你可以使用autodlml-server来训练～
